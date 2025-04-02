@@ -1,0 +1,47 @@
+[2025-03-28T11:06:06.013939+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => cat_c
+)
+ [] []
+[2025-03-28T11:06:07.463537+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => cat_p
+    [1] => BLOCK_HTML
+)
+ [] []
+[2025-03-28T11:08:48.840121+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => .*
+)
+ [] []
+[2025-04-01T08:15:22.283725+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => EAV_ATTRIBUTE_77
+    [1] => EAV_ENTITY_TYPES_CATALOG_PRODUCT_ENTITY
+    [2] => EAV_ATTRIBUTE_catalog_product_price
+)
+ [] []
+[2025-04-01T08:15:22.397793+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => EAV_ATTRIBUTE_78
+    [1] => EAV_ATTRIBUTE_catalog_product_special_price
+)
+ [] []
+[2025-04-01T08:15:22.443114+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => EAV_ATTRIBUTE_98
+    [1] => EAV_ATTRIBUTE_catalog_product_minimal_price
+)
+ [] []
+[2025-04-01T08:15:22.490756+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => EAV_ATTRIBUTE_123
+    [1] => EAV_ATTRIBUTE_catalog_product_msrp
+)
+ [] []
+[2025-04-01T08:15:22.538672+00:00] mgt-varnish-logger.DEBUG: Varnish Cache purged by following tags: Array
+(
+    [0] => EAV_ATTRIBUTE_81
+    [1] => EAV_ATTRIBUTE_catalog_product_cost
+)
+ [] []

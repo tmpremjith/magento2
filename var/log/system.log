@@ -1,0 +1,126 @@
+[2025-03-28T08:26:25.436208+00:00] main.ERROR: The path "/home/cloudpanel/htdocs/premjith.mgtcommerce.com/pub/static/." is not writable. [] []
+[2025-03-28T08:26:28.600239+00:00] main.ERROR: The path "/home/cloudpanel/htdocs/premjith.mgtcommerce.com/pub/static/." is not writable. [] []
+[2025-03-28T08:27:10.634249+00:00] main.ERROR: The path "/home/cloudpanel/htdocs/premjith.mgtcommerce.com/pub/static/." is not writable. [] []
+[2025-03-28T08:41:05.858141+00:00] main.ERROR: Sample Data error: Warning: file_get_contents(/home/cloudpanel/htdocs/premjith.mgtcommerce.com/pub/media/downloadable/files/links/l/u/luma_background_-_model_against_fence_4_sec_.mp4): Failed to open stream: No such file or directory in /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/magento/module-downloadable-sample-data/Model/Product/Converter.php on line 132 [] []
+[2025-03-28T08:46:35.974214+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2025-03-28T08:57:53.828575+00:00] main.INFO: /usr/bin/php8.3 -f /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento cache:flush 2>&1
+Flushed cache types:
+config
+layout
+block_html
+collections
+reflection
+db_ddl
+compiled_config
+eav
+customer_notification
+config_integration
+config_integration_api
+graphql_query_resolver_result
+full_page
+config_webservice
+translate [] []
+[2025-03-28T08:59:18.765747+00:00] main.INFO: /usr/bin/php8.3 -f /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento setup:di:compile 2>&1
+Compilation was started.
+%message% 0/9 [>---------------------------]   0% < 1 sec 70.0 MiBProxies code generation... 0/9 [>---------------------------]   0% < 1 sec 70.0 MiB
+Proxies code generation... 1/9 [===>------------------------]  11% 1 sec 74.0 MiB
+Repositories code generation... 1/9 [===>------------------------]  11% 1 sec 74.0 MiB
+Repositories code generation... 2/9 [======>---------------------]  22% 23 secs 110.0 MiB
+Service data attributes generation... 2/9 [======>---------------------]  22% 23 secs 110.0 MiB
+Service data attributes generation... 3/9 [=========>------------------]  33% 23 secs 110.0 MiB
+Application code generator... 3/9 [=========>------------------]  33% 23 secs 110.0 MiB
+Application code generator... 4/9 [============>---------------]  44% 37 secs 122.0 MiB
+Interceptors generation... 4/9 [============>---------------]  44% 37 secs 122.0 MiB
+Interceptors generation... 5/9 [===============>------------]  55% 56 secs 156.0 MiB
+Area configuration aggregation... 5/9 [===============>------------]  55% 56 secs 156.0 MiB
+Area configuration aggregation... 6/9 [==================>---------]  66% 1 min, 2 secs 262.0 MiB
+Interception cache generation... 6/9 [==================>---------]  66% 1 min, 2 secs 262.0 MiB
+Interception cache generation... 7/9 [=====================>------]  77% 1 min, 10 secs 260.0 MiB
+App action list generation... 7/9 [=====================>------]  77% 1 min, 10 secs 260.0 MiB
+App action list generation... 8/9 [========================>---]  88% 1 min, 10 secs 260.0 MiB
+Plugin list generation... 8/9 [========================>---]  88% 1 min, 10 secs 260.0 MiB
+Plugin list generation... 9/9 [============================] 100% 1 min, 13 secs 260.0 MiB
+Generated code and dependency injection configuration successfully. [] []
+[2025-03-28T08:59:22.187233+00:00] main.INFO: /usr/bin/php8.3 -f /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento cache:flush 2>&1
+Flushed cache types:
+config
+layout
+block_html
+collections
+reflection
+db_ddl
+compiled_config
+eav
+customer_notification
+config_integration
+config_integration_api
+graphql_query_resolver_result
+full_page
+config_webservice
+translate [] []
+[2025-03-28T08:59:51.170925+00:00] main.INFO: /usr/bin/php8.3 -f /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento setup:static-content:deploy -f en_US 2>&1
+
+Deploy using quick strategy
+frontend/Magento/blank/en_US            0/2396              >--------------------------- 0%     < 1 sec
+[1A[2Kfrontend/Magento/blank/en_US            515/2396            ======>--------------------- 21%    1 sec
+[1A[2Kfrontend/Magento/blank/en_US            1346/2396           ===============>------------ 56%    2 secs
+[1A[2Kfrontend/Magento/blank/en_US            2262/2396           ==========================>- 94%    3 secs
+[1A[2Kfrontend/Magento/blank/en_US            2315/2396           ===========================> 96%    4 secs
+[1A[2Kfrontend/Magento/blank/en_US            2317/2396           ===========================> 96%    6 secs
+[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         276/3004            ==>------------------------- 9%     1 sec
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         1034/3004           =========>------------------ 34%    2 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         1960/3004           ==================>--------- 65%    3 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         2853/3004           ==========================>- 94%    7 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         2854/3004           ==========================>- 95%    8 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         3004/3004           ============================ 100%   8 secs
+frontend/Magento/luma/en_US             57/2412             >--------------------------- 2%     1 sec
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         3004/3004           ============================ 100%   8 secs
+frontend/Magento/luma/en_US             831/2412            =========>------------------ 34%    2 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         3004/3004           ============================ 100%   8 secs
+frontend/Magento/luma/en_US             1860/2412           =====================>------ 77%    3 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         3004/3004           ============================ 100%   8 secs
+frontend/Magento/luma/en_US             2315/2412           ==========================>- 95%    4 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         3004/3004           ============================ 100%   8 secs
+frontend/Magento/luma/en_US             2317/2412           ==========================>- 96%    7 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2396/2396           ============================ 100%   6 secs
+adminhtml/Magento/backend/en_US         3004/3004           ============================ 100%   8 secs
+frontend/Magento/luma/en_US             2412/2412           ============================ 100%   7 secs
+
+Execution time: 26.973373889923 [] []
+[2025-03-28T09:00:42.594565+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for premjith-ssh [] []
+[2025-03-28T09:00:42.596941+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for premjith-ssh [] []
+[2025-03-28T09:00:42.604226+00:00] main.INFO: echo "
+#~ MAGENTO START 0f70cbeaa6dc15abc48f6ad9ff2be1885ae3c4ac012187fbd37246ca558f8fb8
+* * * * * /usr/bin/php8.3 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento cron:run 2>&1 | grep -v \"Ran jobs by schedule\" >> /home/cloudpanel/htdocs/premjith.mgtcommerce.com/var/log/magento.cron.log
+#~ MAGENTO END 0f70cbeaa6dc15abc48f6ad9ff2be1885ae3c4ac012187fbd37246ca558f8fb8
+" 2>&1 | crontab - 2>&1
+ [] []
+[2025-04-01T13:10:12.814840+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Application.php(720): Symfony\Component\Console\Application->findNamespace()
+#1 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find()
+#2 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#3 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#4 /home/cloudpanel/htdocs/premjith.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
